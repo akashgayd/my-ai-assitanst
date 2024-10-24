@@ -79,6 +79,11 @@ function takeCommand(massage){
     if(massage.includes("hello")){
         speak("hello sir how can i help you?");
     }
+    else if(massage.includes("how are you")){
+
+        speak("im fine what abaut you?")
+    }
+
     else if(massage.includes("who are you")){
 
         speak("im shifra your personal virtual A i assistant created by akash sir");
