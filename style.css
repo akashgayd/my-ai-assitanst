@@ -10,7 +10,7 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(70deg, rgb(31, 1, 1),rgb(0, 27, 9));
+    background: linear-gradient(70deg, rgb(1, 1, 1),rgb(0, 14, 5));
     font-family: "Black Ops One", system-ui;
     color: white;
 }
@@ -33,14 +33,14 @@ html,body{
     border-radius: 20%;
 }
 h1{
-    font-size: 40px;
+    font-size: 25px;
     font-weight: 600;
     text-transform: capitalize;
     text-align: center;
 }
 h1 span{
-    color: rgb(234, 99, 3);
-  
+    color: rgb(0, 104, 173);
+    font-size: 40px;
    
 }
 .gif{
