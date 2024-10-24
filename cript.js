@@ -56,7 +56,7 @@ recognition.onresult=(event)=>{
  let transcript =event.results[curruntIndex][0].transcript
 
  askQuition.innerText = transcript;
-   takeCommand(transcript);
+   takeCommand(transcript.toLowerCase());
 }
 
 btnEl.addEventListener("click",()=>{
@@ -69,5 +69,15 @@ function takeCommand(massage){
 
     if(massage.includes("hello")){
         speak("hello sir how can i help you?");
+    }
+    else if(massage.includes("who are you")){
+
+        speak("im shifra your persnonal vertual assitants created by akash sir");
+    }
+    else if(massage.includes("open youtube")){
+speak("opening youtube");
+
+window.open("https://www.youtube.com/","_blank")
+        
     }
 }
