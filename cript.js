@@ -100,27 +100,31 @@ window.open("https://www.youtube.com/","_blank")
 
 else if(massage.includes("whatsapp")){
     speak("opening whatsapp");
-    window.open("whatsapp://")
+    window.open("https://web.whatsapp.com/")
 }
 
 else if(massage.includes("instagram")){
     speak("opening instagram");
-    window.open("instagram://")
+    window.open("https://www.instagram.com/")
 }
 
 else if(massage.includes("shapchat")){
     speak("opening snapchat");
-    window.open("snapchat://")
+    window.open("https://web.snapchat.com/")
 }
 
 else if(massage.includes("telegram")){
     speak("opening telegram");
-    window.open("telegram://")
+    window.open("https://telegram.org/")
 }
 
-else if(massage.includes("youtube")){
-    speak("opening youtube");
-    window.open("youtube://")
+else if(massage.includes("songs")|| ("play song")){
+    speak(" here some latest song");
+    window.open("https://www.youtube.com/watch?v=NX5yDs_TLqA")
+}
+else if(massage.includes("chatgpt")){
+    speak("opning chat gpt")
+    window.open("https://openai.com/index/chatgpt/")
 }
 else{
     let finldSet =" this is i found the internet regarding"+ massage.replace("shipra","") || massage.replace("shifra","")||
