@@ -118,7 +118,7 @@ else if(massage.includes("telegram")){
     window.open("https://telegram.org/")
 }
 
-else if(massage.includes("songs")){
+else if(massage.includes("songs")|| massage.includes("play song") || massage.includes("gana")){
     speak(" here some latest song");
     window.open("https://www.youtube.com/watch?v=NX5yDs_TLqA")
 }
